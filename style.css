@@ -1,0 +1,289 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;800;900&family=IBM+Plex+Sans:wght@400;700&family=Outfit:wght@300;800;900&family=Red+Hat+Display:wght@500;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    border: none;
+}
+body{
+    overflow-x: hidden;
+    background-image: url(./equalizer-landing-page/starter-code/assets/bg-main-mobile.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% + 230px) calc(0% - 240px);
+}
+/* header */ 
+#equa{
+    padding:39.99px 0 0 24.15px ;
+}
+/* text section */
+.text{
+    position: relative;
+}
+.text h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.454545px;
+    color: #191826;
+}
+.text p{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+    max-width:87.2% ;
+}
+.descrip{
+    padding: 0 24px;
+    margin-top:64.01px ;
+    
+}
+
+/* main section */
+.main{
+    position: relative;
+}
+
+/*black div */
+.black{
+    background: #191826;
+    border-radius: 12px;
+    width: 100%;
+    height: 600px;
+    margin-top:166px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+#mobile{
+    position: absolute;
+    width: 208.97px;
+    height:430px ;
+    top: -98px;
+}
+#pattern-mob{
+    width: 280px;
+    height: 420px;
+}
+
+
+
+/*Orange div*/
+
+
+.orange{
+    width: 100%;
+    background: #FA7453;
+    border-radius: 12px;
+    padding: 0 37px 0 37px;
+    position: relative;
+    top: -220px;
+}
+.orange h1{
+    color: #FCFAF9;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    padding-top: 48px;
+}
+.orange p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FCFAF9;
+    margin-top: 12px;
+}
+.orange h2{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 52px;
+    color: #FCFAF9;
+    margin-top: 36px;
+}
+.orange span{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+}
+#ios{
+    background: #191826;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.18px;
+    color: #FCFAF9;
+    width: 296px;
+    height: 61px;
+    margin-top: 36px;
+}
+#ios:hover{
+    background: #66E2DC;
+    cursor: pointer;
+}
+#andr{
+    background: #FCFAF9;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.18px;
+    color: #191826;
+    width: 296px;
+    height: 61px;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+#andr:hover{
+    background: #FFB964;
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    margin-top: -156.01px;
+    padding: 0 24px;
+    margin-bottom: 81.5px
+}
+footer p{
+    margin-top: 32.01px;
+}
+.social{
+    margin-top: 64px;
+    ;
+}
+#fb{
+    margin-right: 20px;
+}
+#fb:hover{
+    cursor: pointer;
+    filter: invert(72%) sepia(30%) saturate(7497%) hue-rotate(326deg) brightness(101%) contrast(96%);
+}
+#ig{
+    margin-right: 20px;
+}
+#ig:hover{
+    filter: invert(72%) sepia(30%) saturate(7497%) hue-rotate(326deg) brightness(101%) contrast(96%);
+    cursor: pointer;
+}
+#tw:hover{
+    filter: invert(72%) sepia(30%) saturate(7497%) hue-rotate(326deg) brightness(101%) contrast(96%);
+    cursor: pointer;
+}
+@media (min-width:768px){
+    body{
+        background-image: url(./equalizer-landing-page/starter-code/assets/bg-main-mobile.png), url(./equalizer-landing-page/starter-code/assets/bg-pattern-1.svg);
+        background-repeat: no-repeat, no-repeat;
+        background-position-x: calc(100% + -29px), calc(100% + 57px);
+        background-position-y: calc(0% - 240px), calc(0% - 100px);
+    }
+
+    .text h1{
+        font-size: 64px;
+        line-height: 64px;
+        letter-spacing: -0.727273px;
+        max-width: 67.7%;
+        margin-left: 39.15px;
+    }
+    .text p{
+        font-size: 18px;
+        line-height: 28px;
+        max-width: 66.9%;
+        margin-left: 39.15px;
+    }
+    #equa{
+        margin-left: 39.15px;
+        margin-top: 61.99px;
+    }
+    .main{
+        margin: 0 33px 0 39px;
+    }
+    .black{
+        width: 90.625%;
+    }
+    #mobile{
+        left: 9%;
+        width: 270.21px;
+        height: 556px;
+    }
+    #pattern-mob{
+        left: 32.9%;
+        position: absolute;
+    }
+    .orange{
+        width: 399px;
+        height: 546px;
+        left: 31%;
+        top: -400px;
+    }
+    footer p{
+        max-width: 47.65%;
+    }
+    .divid{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 85px;
+    }
+    
+}
+@media (min-width:1440px) {
+    body{
+        background-image: url(./equalizer-landing-page/starter-code/assets/bg-main-mobile.png), url(./equalizer-landing-page/starter-code/assets/bg-pattern-1.svg);
+        background-repeat: no-repeat, no-repeat;
+        background-position-x: calc(100% + -130px), calc(100% + 0px);
+        background-position-y: calc(0% - 100px), calc(0% - 37px);
+    }
+
+    footer{
+        display: flex;
+        gap:9.51% ;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 165px;
+    }
+    .text h1{
+        font-size: 88px;
+        line-height: 88px;
+        letter-spacing: -1px;
+        margin-left: 165px;
+    }
+    .text p{
+        font-size: 20px;
+        line-height: 34px; 
+        margin-left: 165px;
+        width: 57,4%;
+    }
+    #equa{
+        margin-left: 165px;
+        padding-left: 0;
+    }
+    .black{
+        width: 77.08%;
+    }
+    .main{
+        margin-left: 165px;
+    }
+    .descrip{
+        padding: 0;
+    }
+    .orange{
+        left: 51.26%;
+    }
+    .divid{
+        margin-bottom: 45px;
+    }
+    #mobile{
+        left: 10.63%;
+    }
+    #pattern-mob{
+        left: 30.27%;
+    }
+}
